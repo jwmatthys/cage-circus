@@ -3,6 +3,10 @@
 // by Joel Matthys
 //
 // No rights reserved. All code is in public domain.
+//
+// TODO:
+// Return to reading all SFs (not just random selection)
+// Possibility of organizing into chapters?
 
 welcomeMessage();
 
