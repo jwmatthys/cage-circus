@@ -5,7 +5,7 @@
 // No rights reserved. All code is in public domain.
 //
 // TODO:
-// Return to reading all SFs (not just random selection)
+//
 // Possibility of organizing into chapters?
 
 welcomeMessage();
@@ -55,7 +55,7 @@ fun void render()
 {
     for (int j; j<totalSounds; j++)
     {
-        Math.random2(0,voices-1) => int i;
+        j % voices => int i;
         path + Std.itoa(i+1) + ".wav" => string fn;
         fn => temp.read;
         dur testStart, testLen;
