@@ -38,7 +38,7 @@ setFiles_Per_Min();
 SndBuf temp => blackhole;
 WvOut2 out;
 
-me.sourceDir() + "/data/" => string path;
+me.sourceDir() + "/" => string path;
 
 if (recording)
 {
